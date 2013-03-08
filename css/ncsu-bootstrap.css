@@ -34,8 +34,18 @@ a:hover {
     background-image: none;
 }
 
+.btn-primary:hover {
+    background-color: #004377;
+    background-image: none;
+}
+
 .btn-success {
     background-color: #4b711d;
+    background-image: none;
+}
+
+.btn-success:hover {
+    background-color: #416318;
     background-image: none;
 }
 
@@ -44,8 +54,18 @@ a:hover {
     background-image: none;
 }
 
+.btn-warning:hover {
+    background-color: #bf7a1a;
+    background-image: none;
+}
+
 .btn-danger {
     background-color: #CC0000;
+    background-image: none;
+}
+
+.btn-danger:hover {
+    background-color: #AA0000;
     background-image: none;
 }
 
@@ -53,6 +73,12 @@ a:hover {
     background-color: #c7b18a;
     background-image: none;
 }
+
+.btn-info:hover {
+    background-image: none;
+    background-color: #b5a180;
+}
+
 .alert {
     border-radius: 0px;
     -moz-border-radius: 0px;
