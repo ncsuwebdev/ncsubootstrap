@@ -259,3 +259,11 @@ a.thumbnail:focus {
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
 }
+
+.table-bordered thead:first-child tr:first-child>th:first-child, 
+.table-bordered tbody:first-child tr:first-child>td:first-child, 
+.table-bordered tbody:first-child tr:first-child>th:first-child {
+    -webkit-border-top-left-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    border-top-left-radius: 0px;
+}
